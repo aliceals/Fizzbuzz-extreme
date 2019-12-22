@@ -40,6 +40,17 @@ class Controls extends React.Component {
             <React.Fragment>
                 {this.state.toggleFizzBuzz == false && <button onClick={this.produceAbletech}>Wonder what this button does?</button>}
                 {this.state.toggleFizzBuzz && <button onClick={this.removeAbletech}>Delete Abletech</button>}
+                <h4>Add three words</h4>
+                <form>
+                    <label htmlFor="first">First word</label>
+                    <input type="string"></input>
+                    <label htmlFor="second">Second word</label>
+                    <input type="string"></input>
+                    <label htmlFor="third">Third word</label>
+                    <input type="string"></input>
+                    <button type="submit">Submit</button>
+                </form>
+
                 <ul> {this.state.wordArray.map((word, i) => {
                     return <li key={i} > {word}</li>
                 })}</ul>
