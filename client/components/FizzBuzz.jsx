@@ -38,14 +38,12 @@ class FizzBuzz extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <h2>This will be the fizz buzz </h2>
-
                 {this.state.toggleFizzBuzz == false && <button onClick={this.produceFizzBuzz}>Click for FizzBuzz</button>}
                 {this.state.toggleFizzBuzz && <button onClick={this.removeFizzBuzz}>Delete FizzBuzz</button>}
                 <ul> {this.state.wordArray.map((word, i) => {
-                    return <li key={i}>{word}</li>
+                    return <li key={i} > {word}</li>
                 })}</ul>
-            </React.Fragment>
+            </React.Fragment >
         )
     }
 
