@@ -31,7 +31,7 @@ class Controls extends React.Component {
     }
 
     removeAbletech = () => {
-        this.setState({ wordArray: [], toggleFizzBuzz: false })
+        this.setState({ wordArray: ["Abletech is the best"], toggleFizzBuzz: false })
     }
 
 
