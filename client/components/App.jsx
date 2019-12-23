@@ -6,18 +6,17 @@ import Controls from './Controls'
 class App extends React.Component {
   constructor(props) {
     super(props)
-
   }
-
-
 
   render() {
 
     return (
       <div>
-        <h1>FizzBuzz</h1>
-        <FizzBuzz />
-        <Controls />
+        <h1 className="title">FizzBuzz</h1>
+        <div className="container">
+          <FizzBuzz />
+          <Controls />
+        </div>
       </div>
     )
   }

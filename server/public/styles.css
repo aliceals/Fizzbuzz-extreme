@@ -31,3 +31,25 @@ li + li {
     opacity: 1;
   }
 }
+
+.title{
+    text-align: center;
+    margin: 20px;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+justify-content: space-around;
+}
+
+.fizzbuzz{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.controls{
+    display:flex;
+    flex-direction:column;
+}

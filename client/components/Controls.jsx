@@ -48,15 +48,14 @@ class Controls extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
-
+            <div className="controls">
                 <h3>Make your own version of Fizzbuzz</h3>
                 <h4>Add two words</h4>
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="first" >First word</label>
-                    <input name="first" onChange={this.handleChange} type="string"></input>
+                    <input name="first" onChange={this.handleChange} type="string" placeholder="fizz"></input>
                     <label htmlFor="second">Second word</label>
-                    <input name="second" onChange={this.handleChange} type="string"></input>
+                    <input name="second" onChange={this.handleChange} type="string" placeholder="buzz"></input>
                     <button type="submit">Submit</button>
                 </form>
                 {this.state.toggleFizzBuzz && <button onClick={this.removeNewFizzbuzz}>Delete</button>}
@@ -64,7 +63,7 @@ class Controls extends React.Component {
                 <ul> {this.state.wordArray.map((word, i) => {
                     return <li key={i} > {word}</li>
                 })}</ul>
-            </React.Fragment >
+            </div>
         )
     }
 
