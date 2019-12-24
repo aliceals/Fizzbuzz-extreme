@@ -31,7 +31,7 @@ class Controls extends React.Component {
     }
 
     removeNewFizzbuzz = () => {
-        this.setState({ wordArray: ["Bye Bye"], toggleFizzBuzz: false })
+        this.setState({ wordArray: ["Bye"], toggleFizzBuzz: false })
     }
 
     handleChange = (e) => {
