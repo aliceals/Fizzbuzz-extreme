@@ -7,6 +7,7 @@ Fizzbuzz extreme takes fizzbuzz to the next level
 
 ## To do
 - finish effects
+- styling
 
 Made with react 
 
