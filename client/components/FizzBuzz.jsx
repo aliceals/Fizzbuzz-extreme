@@ -1,4 +1,5 @@
 import React from 'react'
+import fizzbuzz from '../utils'
 
 class FizzBuzz extends React.Component {
     constructor(props) {
@@ -10,21 +11,9 @@ class FizzBuzz extends React.Component {
     }
 
     produceFizzBuzz = () => {
-        let thisWordArray = []
 
-        for (let i = 1; i <= 100; i++) {
-            if (i % 3 === 0 && i % 5 === 0) {
-                thisWordArray.push("fizzbuzz")
-            } else if (i % 3 === 0) {
-                thisWordArray.push("fizz")
-            } else if (i % 5 === 0) {
-                thisWordArray.push("buzz")
-            } else {
-                thisWordArray.push(i)
-            }
-        }
         this.setState({
-            wordArray: thisWordArray,
+            wordArray: fizzbuzz(),
             toggleFizzBuzz: true
         })
 

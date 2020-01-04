@@ -8,3 +8,4 @@ test('<App />', () => {
   const wrapper = mount(<App />)
   expect(wrapper.text()).toMatch(expected)
 })
+
