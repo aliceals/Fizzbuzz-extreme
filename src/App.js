@@ -1,6 +1,7 @@
 import React from 'react'
 import FizzBuzz from './FizzBuzz'
 import Controls from './Controls'
+import './App.css';
 
 
 class App extends React.Component {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <h1 className="title">FizzBuzz</h1>
         <div className="container">
           <FizzBuzz />
+          <hr></hr>
           <Controls />
         </div>
       </div>

@@ -31,7 +31,7 @@ class Controls extends React.Component {
     }
 
     removeNewFizzbuzz = () => {
-        this.setState({ wordArray: ["Bye"], toggleFizzBuzz: false })
+        this.setState({ wordArray: ["Thank you"], toggleFizzBuzz: false })
     }
 
     handleChange = (e) => {
@@ -49,7 +49,7 @@ class Controls extends React.Component {
     render() {
         return (
             <div className="controls">
-                <h3>Make your own version of Fizzbuzz</h3>
+                <h2>Make your own version of Fizzbuzz</h2>
                 <h4>Add two words</h4>
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="first" >First word</label>

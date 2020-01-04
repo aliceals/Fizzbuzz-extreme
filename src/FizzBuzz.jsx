@@ -27,7 +27,7 @@ class FizzBuzz extends React.Component {
     render() {
         return (
             <div className="fizzbuzz">
-                <h3>Original fizzbuzz</h3>
+                <h2>Original fizzbuzz</h2>
                 {this.state.toggleFizzBuzz == false && <button onClick={this.produceFizzBuzz}>Click for FizzBuzz</button>}
                 {this.state.toggleFizzBuzz && <button onClick={this.removeFizzBuzz}>Delete FizzBuzz</button>}
                 <ul> {this.state.wordArray.map((word, i) => {
