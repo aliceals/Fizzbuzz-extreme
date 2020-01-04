@@ -3,11 +3,11 @@ function fizzBuzz() {
 
     for (let i = 1; i <= 100; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            thisWordArray.push("fizzbuzz")
+            thisWordArray.push("FizzBuzz")
         } else if (i % 3 === 0) {
-            thisWordArray.push("fizz")
+            thisWordArray.push("Fizz")
         } else if (i % 5 === 0) {
-            thisWordArray.push("buzz")
+            thisWordArray.push("Buzz")
         } else {
             thisWordArray.push(i)
         }
