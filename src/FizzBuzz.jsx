@@ -1,5 +1,5 @@
 import React from 'react'
-import fizzbuzz from '../utils'
+import fizzbuzz from './utils'
 
 class FizzBuzz extends React.Component {
     constructor(props) {
