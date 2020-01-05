@@ -3,17 +3,45 @@
 }
 
 .Fizz {
-    color: blue
+    color: blue;
+     animation:blinkingTextfizz 2s infinite;
 }
 
 .FizzBuzz {
-    color: green
+    color: green;
+    animation:blinkingText 2s infinite;
 }
 
 .Buzz {
-    color: purple
+    color: purple;
+     animation:blinkingTextbuzz 2s infinite;
 }
 
 .Number {
     color: grey
+}
+
+
+@keyframes blinkingText{
+    0%{     color: blue;    }
+    /* 49%{    color: transparent; } */
+    50%{    color: transparent; }
+    /* 99%{    color:transparent;  } */
+    100%{   color:green;    }
+}
+
+@keyframes blinkingTextbuzz{
+    0%{     color: purple;    }
+    /* 49%{    color: transparent; } */
+    50%{    color: transparent; }
+    /* 99%{    color:transparent;  } */
+    100%{   color: red;    }
+}
+
+@keyframes blinkingTextfizz{
+    0%{     color: yellow;    }
+    /* 49%{    color: transparent; } */
+    50%{    color: transparent; }
+    /* 99%{    color:transparent;  } */
+    100%{   color:orange;    }
 }
