@@ -1,5 +1,6 @@
 * {
   margin-left: 8px;
+  margin-bottom: 8px;
 }
 
 .Fizz {
@@ -21,6 +22,9 @@
     color: grey
 }
 
+ul {
+    list-style: none;
+}
 
 @keyframes blinkingText{
     0%{     color: blue;    }
