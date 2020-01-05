@@ -1,3 +1,19 @@
 * {
   margin-left: 8px;
 }
+
+.Fizz {
+    color: blue
+}
+
+.FizzBuzz {
+    color: green
+}
+
+.Buzz {
+    color: purple
+}
+
+.Number {
+    color: grey
+}
