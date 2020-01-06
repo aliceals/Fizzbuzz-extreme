@@ -18,8 +18,8 @@ class App extends React.Component {
           <FizzBuzz />
           <hr></hr>
           <Controls />
-          <img src="../images/fizzbuzz.png" />
-          <a class="github-fork-ribbon" href="https://github.com/aliceals/Fizzbuzz-extreme" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+          <img src="../images/fizzbuzz.png" alt="fizzbuzz" />
+          <a class="github-fork-ribbon" href="https://github.com/aliceals/Fizzbuzz-extreme" data-ribbon="View code on GitHub" title="View code on GitHub">View code on GitHub</a>
         </div>
       </div>
     )
