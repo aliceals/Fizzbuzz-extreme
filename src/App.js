@@ -19,6 +19,8 @@ class App extends React.Component {
           <hr></hr>
           <Controls />
           <img src="../images/fizzbuzz.png" />
+          <a class="github-fork-ribbon" href="https://url.to-your.repo" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+
         </div>
       </div>
     )
