@@ -18,6 +18,7 @@ class App extends React.Component {
           <FizzBuzz />
           <hr></hr>
           <Controls />
+          <img src="../images/fizzbuzz.png" />
         </div>
       </div>
     )
